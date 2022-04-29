@@ -1,0 +1,236 @@
+body{
+    font-family: montserrat ,sans-serif;
+}
+
+#title{
+    background: #17a2b8;
+    color: #fff;
+        
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+
+/* .container-title{
+    min-height: 800px;
+
+} */
+
+/*#header{
+    min-height: 600px;
+}*/
+
+#title h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: montserrat-bold, sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.rotate{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    
+    
+}
+
+@media (max-width: 1028px) {
+
+    .rotate{
+        width: 60%;
+        transform: rotate(0deg);
+        position: static;
+        margin-top: 1rem;
+
+    }
+
+    #title h1{
+        font-size: 2.5;
+        line-height: 1;
+    }
+
+    #header{
+        text-align: center;
+    }
+    
+}
+
+
+
+/* Navbar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: light;
+    
+}
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+
+}
+
+#features i{    
+    margin-bottom: 0.8rem;
+}
+
+/*a:hover{
+    color: #007E33;
+}*/ 
+.features-box {
+    line-height: 1.5;
+    padding: 0 5%;
+    
+}
+
+.icon{
+    color: #17a2b8;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #0f6674;
+}
+
+/* Testimonials */
+
+#testimonials{
+    background: #17a2b8;
+    color: #fff;
+    
+    text-align: center;
+}
+
+#testimonials .carousel-item{
+    padding: 7% 15%;
+}
+
+#testimonials h2{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* testimonials .carusel{
+    
+} */
+
+#testimonials .foto{
+    width: 15%;
+    margin: 1.5%;
+}
+
+
+/* Press */
+
+#press{
+    background: #17a2b8;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-image{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+
+/* Pricing */
+
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+#pricing .top{
+    margin-bottom: 10%;
+}
+
+#pricing .font-weight{
+    font-weight: 800;
+}
+
+#pricing h3{
+    font-weight: 800;
+}
+
+#pricing h2{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+/* #pricing .pricing-cards{
+    margin: 0% 8%;
+} */
+
+/* #pricing .card{
+    
+    margin: 0% 2% 8% 0;
+} */
+
+#pricing .card-text , .pricing-text{
+    color: #6c757d !important;
+    font-weight: 500;
+}
+
+#pricing span{
+    color: #6c757d !important;
+}
+
+/* Call to action  */
+
+#cta {
+    padding: 7% 15%;
+    background: #17a2b8;
+    color: #fff;
+    text-align: center;
+}
+
+#cta h3{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 6%;
+    line-height: 1.5;
+
+}
+
+/* Footer  */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+#footer i{
+    margin: 1rem 0.7rem ;
+}
